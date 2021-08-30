@@ -8,3 +8,6 @@
       dest: /tmp/
       owner: root
       group: root
+  - name: Test task
+    debug:
+      msg: "Testing gitpod"
